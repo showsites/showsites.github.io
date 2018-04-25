@@ -1,0 +1,690 @@
+@import url("../fonts/fonts.css");
+/*
+правка верстки
+ */
+
+//div.centering{
+//  width: 100% ;
+//  max-width: 100%;
+//  div.centeringin.clearfix{
+//    margin: 0;
+//  }
+//}
+ul > li:before, ol > li:before{
+  display: none;
+}
+input[type="text"]{
+  background: #fff;
+}
+div#content.content{
+  line-height: normal;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+.row{
+  margin: 0;
+}
+input{
+  outline: none;
+}
+#form-main-engineer input[type="text"]{
+  font-family: "Gotham Pro Light";
+  font-size: 14px;
+  padding-left: 10px;
+  height: 29px;
+  width: 100%;
+  border: solid 2px #00c4c1;
+  border-radius: 14px;
+  text-align: left;
+}
+
+/*
+общие стили
+ */
+
+.fw-bold{
+  font-family: "Gotham Pro Black";
+  text-transform: uppercase;
+}
+.slider-top{
+  width: 100%;
+  background: url("../images/slider-bg.jpg") no-repeat center;
+  background-size: cover;
+  min-height: 600px;
+  color: #fff;
+  .slide-excursia-flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    min-height: 330px;
+    img{
+      height: 50px;
+      width: 50px;
+      border: solid 1px #fff;
+      border-radius: 50px;
+      cursor: pointer;
+      &.slider-logo{
+        width: 270px;
+        height: 270px;
+        border: none;
+        cursor: default;
+      }
+    }
+    h2{
+      font-family: "Gotham Pro Black";
+      font-size: 41px;
+    }
+  }
+  .slider-info{
+    font-family: "Gotham Pro Light";
+    font-size: 15px;
+    padding-bottom: 50px;
+    p{
+      margin: 0;
+    }
+    div{
+      padding-left: 45px;
+    }
+    div:first-child{
+      border-right: solid 2px #fff;
+    }
+    div:last-child{
+
+    }
+  }
+  .registration-to-excursion{
+    font-family: "Gotham Pro Medium";
+    font-size: 22px;
+    text-align: center;
+    background: linear-gradient(90deg, #23c5bd, #3fa9f5);
+    padding-bottom: 27px;
+    input{
+      font-family: "Gotham Pro Light";
+      font-size: 16px;
+      text-align: center;
+      padding-left: 10px;
+      height: 29px;
+      width: 100%;
+    }
+    input[type="text"], input[type="tel"]{
+      border: solid 2px #00c4c1;
+      border-radius: 14px;
+      text-align: left;
+      background-color: #fff;
+    }
+    input[type="submit"]{
+      background: linear-gradient(90deg, #34e6cd, #0cbbce);
+      border: solid 2px #fff;
+      border-radius: 14px;
+
+    }
+  }
+}
+
+
+.mining-hotel-presentation{
+  h2{
+    font-family: "Gotham Pro Black";
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  h4{
+    font-family: "Gotham Pro Light";
+    font-size: 18px;
+    text-align: center;
+    span{
+      font-family: "Gotham Pro Black";
+    }
+  }
+  img{
+    width: 100%;
+    height: auto;
+  }
+  div.separator{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    .figure{
+      height: 33px;
+      width: 38px;
+      background: linear-gradient(90deg, #22c5bd, #3dabf1);
+      clip-path: polygon(50% 30%, 100% 0, 100% 70%, 50% 100%, 0 70%, 0 0);
+    }
+  }
+  hr{
+    color: #e0e0e0;
+    margin-top: -15px;
+  }
+}
+
+.form-callback{
+  form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    text-transform: uppercase;
+    color: #24c4bf;
+    h4{
+      font-family: "Gotham Pro Black";
+      font-size: 14px;
+    }
+    input{
+      font-family: "Gotham Pro Light";
+      font-size: 14px;
+      text-align: center;
+      padding-left: 10px;
+      height: 29px;
+      width: 100%;
+      border: solid 2px #00c4c1;
+
+    }
+    input[type="text"], input[type="tel"]{
+      border-radius: 14px;
+      text-align: left;
+    }
+    input[type="submit"]{
+      background: #000;
+      border-radius: 14px;
+      text-align: center;
+      padding-left: 0;
+      color: #fff;
+    }
+  }
+}
+
+.wattson-system{
+  color: #fff;
+  background: linear-gradient(90deg, #24c4bf, #33b5de);
+  padding-bottom: 60px;
+  h2{
+    font-family: "Gotham Pro Black";
+    font-size: 34px;
+    text-transform: uppercase;
+  }
+  h4{
+    margin-top: 40px;
+    font-family: "Gotham Pro Black";
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+  p{
+    font-family: "Gotham Pro Light";
+    font-size: 14px;
+  }
+  img{
+    width: 100%;
+    height: auto;
+  }
+}
+
+.product-structure{
+  h2{
+    font-family: "Gotham Pro Black";
+    font-size: 34px;
+    color: #25c3c1;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  img{
+    width: 100%;
+    height: auto;
+    //padding-bottom: 50px;
+  }
+}
+
+#form-main-engineer{
+  border-top: 3px solid;
+  border-bottom: 3px solid;
+  border-image: linear-gradient(90deg, #23c5bd, #3fa9f5);
+  width: 100%;
+  background: #000;
+  color: #fff;
+  font-family: "Gotham Pro Medium";
+  font-size: 15px;
+  form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    text-transform: uppercase;
+    h4{
+      text-align: right;
+    }
+    input{
+      font-family: "Gotham Pro Light";
+      font-size: 14px;
+      text-align: center;
+      padding-left: 10px;
+      height: 29px;
+      width: 100%;
+      border: solid 2px #00c4c1;
+
+    }
+    input[type="text"], input[type="tel"]{
+      border-radius: 14px;
+      text-align: left;
+    }
+    input[type="tel"]{
+      padding-left: 0;
+    }
+    input[type="submit"]{
+      background: #000;
+      border-radius: 14px;
+      text-align: center;
+      padding-left: 0;
+      color: #fff;
+    }
+  }
+}
+
+.intellegence{
+  margin-top: 50px;
+  img{
+    margin-bottom: 40px;
+    width: auto;
+    height: 100%;
+  }
+  h2{
+    font-family: "Gotham Pro Black";
+    font-size: 34px;
+    color: #25c3c1;
+    text-transform: uppercase;
+  }
+  ul {
+    list-style-type: none;
+    li{
+      div.list-item{
+        border: solid 3px #72b1c9;
+        border-radius: 15px;
+        text-align: center;
+        display: inline-block;
+        width: 29px;
+        height: 29px;
+        margin-right: 15px;
+        margin-bottom: 6px;
+      }
+      span{
+        text-transform: uppercase;
+      }
+    }
+  }
+}
+
+.mining-hotel{
+  background: linear-gradient(90deg, #23c5db, #3eaaf4);
+  color: #fff;
+  text-transform: uppercase;
+  img{
+    margin: 15px 0;
+    width: 100%;
+    height: auto;
+  }
+  h2{
+    font-family: "Gotham Pro Black";
+    font-size: 34px;
+    margin-top: 80px;
+  }
+  ul{
+    list-style-type: none;
+    li{
+      font-family: "Gotham Pro Regular";
+      font-size: 14px;
+      margin-top: 45px;
+    }
+  }
+}
+
+.advantages{
+  img{
+    width: 100%;
+    height: auto;
+  }
+}
+
+.advantages-description{
+  background-image: linear-gradient(90deg, #23c5bd, #3eaaf4);
+  p{
+    font-family: "Gotham Pro Regular";
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 35px 0 45px 0;
+  }
+  .middle{
+    p{
+      border-left: solid 1px #fff;
+      border-right: solid 1px #fff;
+    }
+  }
+}
+
+.callback-salary{
+  form.container-flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    text-transform: uppercase;
+    h4{
+      text-align: right;
+      font-family: "Gotham Pro Medium";
+      font-size: 15px;
+    }
+    input{
+      font-family: "Gotham Pro Light";
+      font-size: 14px;
+      text-align: center;
+      padding-left: 10px;
+      height: 29px;
+      //width: 100%;
+      border: solid 2px #00c4c1;
+
+    }
+    input[type="text"], input[type="tel"]{
+      border-radius: 14px;
+      text-align: left;
+    }
+    input[type="tel"]{
+      padding-left: 0;
+    }
+    input[type="submit"]{
+      background: #000;
+      border-radius: 14px;
+      text-align: center;
+      padding: 0 10px;
+      color: #fff;
+    }
+  }
+  hr{
+    color: #e0e0e0;
+    margin-top: 0;
+  }
+}
+
+.table{
+  h2{
+    text-align: center;
+    font-family: "Gotham Pro Black";
+    font-size: 34px;
+    text-transform: uppercase;
+  }
+  table{
+    width: 90%;
+    margin: auto;
+    td{
+      padding-left: 15px;
+    }
+    thead{
+      background-image: linear-gradient(90deg, #23c5bd, #3fa9f5);
+      font-family: "Gotham Pro Black";
+      font-size: 32px;
+      color: #fff;
+      text-transform: uppercase;
+    }
+    tbody{
+      font-family: "Gotham Pro Regular";
+      font-size: 14px;
+      tr{
+        border: dotted 1px #d9d8d8;
+        border-right: none;
+        border-left: none;
+        line-height: 30px;
+        &:first-child{
+          border-top: none;
+        }
+        &:last-child{
+          border-bottom: none;
+        }
+        td{
+          border-right: solid 2px #f1f1f1;
+          &:last-child{
+            border: none;
+          }
+          &:nth-of-type(1){
+            width: 50%;
+          }
+          &:nth-of-type(2){
+            width: 20%;
+          }
+          &:nth-of-type(3){
+            width: 30%;
+          }
+        }
+      }
+    }
+  }
+}
+
+.tariff{
+  background-image: linear-gradient(90deg, #23c5bd, #3fa9f5);
+  text-transform: uppercase;
+  color: #fff;
+  h2{
+    color: #fff;
+    font-family: "Gotham Pro Black";
+    font-size: 34px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .pricecard{
+    padding: 11px;
+    background: #fff;
+    text-align: center;
+    &:hover{
+      -webkit-box-shadow: 0px 0px 12px 10px rgba(255,255,255,1);
+      -moz-box-shadow: 0px 0px 12px 10px rgba(255,255,255,1);
+      box-shadow: 0px 0px 12px 10px rgba(255,255,255,1);
+      h5.card-number{
+        -webkit-box-shadow: 0px 0px 12px 10px rgba(255,255,255,1);
+        -moz-box-shadow: 0px 0px 12px 10px rgba(255,255,255,1);
+        box-shadow: 0px 0px 12px 10px rgba(255,255,255,1);
+      }
+    }
+    .border-for-pricecard{
+      border: dotted 3px #cdcdcd;
+      h5.card-number{
+        color: #000;
+        font-family: "Gotham Pro Black";
+        font-size: 34px;
+        height: 50px;
+        width: 50px;
+        margin-top: -35px;
+        position: absolute;
+        border-radius: 50px;
+        border: solid 3px #72b9b9;
+        display: inline-block;
+        background: #fff;
+        z-index: 9999;
+        -webkit-box-shadow: 0px 0px 0px 3px rgba(255,255,255,1);
+        -moz-box-shadow: 0px 0px 0px 3px rgba(255,255,255,1);
+        box-shadow: 0px 0px 0px 3px rgba(255,255,255,1);
+        transform: translateX(-50%);
+      }
+      h3.price{
+        color: #000;
+        font-family: "Gotham Pro Black";
+        font-size: 54px;
+        margin-top: 40px;
+      }
+      h4{
+        font-family: "Gotham Pro Regular";
+        font-size: 28px;
+        color: #cdcdcd;
+        padding-bottom: 15px;
+        border-bottom: #26c2c3 solid 2px;
+        display: inline-block;
+      }
+      p{
+        font-family: "Gotham Pro Regular";
+        font-size: 28px;
+        color: #cdcdcd;
+        margin: 30px 0;
+        line-height: normal;
+        span{
+          font-size: 58px;
+          color: #26c2c3;
+        }
+      }
+      h6{
+        font-family: "Gotham Pro Regular";
+        font-size: 13px;
+        color: #cdcdcd;
+        margin-top: 20px;
+      }
+    }
+  }
+  form.sale{
+    margin-top: 60px;
+    text-align: center;
+    p{
+      font-family: "Gotham Pro Regular";
+      font-size: 22px;
+      span{
+        font-size: 38px;
+        span{
+          font-size: 47px;
+        }
+      }
+    }
+    .triangle{
+      width: 20px;
+      text-align: center;
+      border: 20px solid transparent;
+      border-top: 20px solid #fff;
+      margin: 15px auto;
+    }
+    font-family: "Gotham Pro Medium";
+    font-size: 22px;
+    text-align: center;
+    background: linear-gradient(90deg, #23c5bd, #3fa9f5);
+    padding-bottom: 27px;
+    input{
+      font-family: "Gotham Pro Light";
+      font-size: 16px;
+      text-align: center;
+      padding-left: 10px;
+      height: 29px;
+      width: 30%;
+    }
+    input[type="text"], input[type="tel"]{
+      border: solid 2px #00c4c1;
+      border-radius: 14px;
+      text-align: left;
+    }
+    input[type="submit"]{
+      background: linear-gradient(90deg, #34e6cd, #0cbbce);
+      border: solid 2px #fff;
+      border-radius: 14px;
+
+    }
+  }
+  .backgound-end{
+    background: url("../images/bg-end.png") top;
+    min-height: 110px;
+  }
+}
+
+
+/*
+стили для увеличенных изображений из слайдера
+ */
+
+
+/* увеличенная картинка */
+#magnify {
+  display: none;
+
+  /* position: absolute; upd: 24.10.2016 */
+  position: fixed;
+  max-width: 600px;
+  height: auto;
+  z-index: 9;
+}
+
+#magnify img {
+  width: 100%;
+}
+
+/* затемняющий фон */
+#overlay {
+  display: none;
+
+  background: #000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0.5;
+  z-index: 9990;
+}
+
+/* кнопка закрытия */
+#close-popup {
+  width: 30px;
+  height: 30px;
+
+  background: #FFFFFF;
+  border: 1px solid #AFAFAF;
+  border-radius: 15px;
+  cursor: pointer;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+#close-popup i {
+  width: 30px;
+  height: 30px;
+  background: url(https://codernote.ru/files/cross.png) no-repeat center center;
+  background-size: 16px 16px;
+  display: block;
+}
+
+@keyframes rota {
+  25% { transform: rotate(360deg); }
+}
+
+#close-popup:hover {
+  animation: rota 4s infinite normal;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
+
+/*
+адаптивка
+ */
+
+@media (max-device-width: 769px) {
+  .form-callback, .form-main-engineer, .callback-salary{
+    form{
+      flex-wrap: wrap;
+      flex-direction: column;
+      h4{
+        text-align: center;
+      }
+      input{
+        width: 100%;
+        margin: 5px auto;
+      }
+    }
+  }
+  form.sale{
+    input{
+      width: 100%;
+    }
+  }
+}

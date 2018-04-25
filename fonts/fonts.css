@@ -1,0 +1,27 @@
+@font-face {
+    font-family: "Gotham Pro Medium";
+    src: url("Gotham Cyrillic/GothaProMed.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Gotham Pro Black";
+    src: url("Gotham Cyrillic/GothaProBla.otf");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham Pro Light';
+    src: url('Gotham Cyrillic/GothaProLig.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Gotham Pro Regular";
+    src: url("Gotham Cyrillic/GothaProReg.otf");
+    font-weight: normal;
+    font-style: normal;
+}

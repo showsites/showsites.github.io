@@ -1,0 +1,839 @@
+@charset "UTF-8";
+@import url("../fonts/fonts.css");
+/*
+правка верстки
+ */
+/* line 13, style.scss */
+ul > li:before, ol > li:before {
+  display: none;
+}
+
+/* line 16, style.scss */
+input[type="text"] {
+  background: #fff;
+}
+
+/* line 19, style.scss */
+div#content.content {
+  line-height: normal;
+}
+
+/* line 22, style.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 26, style.scss */
+.row {
+  margin: 0;
+}
+
+/* line 29, style.scss */
+input {
+  outline: none;
+}
+
+/* line 32, style.scss */
+#form-main-engineer input[type="text"] {
+  font-family: "Gotham Pro Light";
+  font-size: 14px;
+  padding-left: 10px;
+  height: 29px;
+  width: 100%;
+  border: solid 2px #00c4c1;
+  border-radius: 14px;
+  text-align: left;
+}
+
+/*
+общие стили
+ */
+/* line 47, style.scss */
+.fw-bold {
+  font-family: "Gotham Pro Black";
+  text-transform: uppercase;
+}
+
+/* line 51, style.scss */
+.slider-top {
+  width: 100%;
+  background: url("../images/slider-bg.jpg") no-repeat center;
+  background-size: cover;
+  min-height: 600px;
+  color: #fff;
+}
+/* line 57, style.scss */
+.slider-top .slide-excursia-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  min-height: 330px;
+}
+/* line 64, style.scss */
+.slider-top .slide-excursia-flex img {
+  height: 50px;
+  width: 50px;
+  border: solid 1px #fff;
+  border-radius: 50px;
+  cursor: pointer;
+}
+/* line 70, style.scss */
+.slider-top .slide-excursia-flex img.slider-logo {
+  width: 270px;
+  height: 270px;
+  border: none;
+  cursor: default;
+}
+/* line 77, style.scss */
+.slider-top .slide-excursia-flex h2 {
+  font-family: "Gotham Pro Black";
+  font-size: 41px;
+}
+/* line 82, style.scss */
+.slider-top .slider-info {
+  font-family: "Gotham Pro Light";
+  font-size: 15px;
+  padding-bottom: 50px;
+}
+/* line 86, style.scss */
+.slider-top .slider-info p {
+  margin: 0;
+}
+/* line 89, style.scss */
+.slider-top .slider-info div {
+  padding-left: 45px;
+}
+/* line 92, style.scss */
+.slider-top .slider-info div:first-child {
+  border-right: solid 2px #fff;
+}
+/* line 99, style.scss */
+.slider-top .registration-to-excursion {
+  font-family: "Gotham Pro Medium";
+  font-size: 22px;
+  text-align: center;
+  background: -webkit-gradient(linear, left top, right top, from(#23c5bd), to(#3fa9f5));
+  background: linear-gradient(90deg, #23c5bd, #3fa9f5);
+  padding-bottom: 27px;
+}
+/* line 105, style.scss */
+.slider-top .registration-to-excursion input {
+  font-family: "Gotham Pro Light";
+  font-size: 16px;
+  text-align: center;
+  padding-left: 10px;
+  height: 29px;
+  width: 100%;
+}
+/* line 113, style.scss */
+.slider-top .registration-to-excursion input[type="text"], .slider-top .registration-to-excursion input[type="tel"] {
+  border: solid 2px #00c4c1;
+  border-radius: 14px;
+  text-align: left;
+  background-color: #fff;
+}
+/* line 119, style.scss */
+.slider-top .registration-to-excursion input[type="submit"] {
+  background: -webkit-gradient(linear, left top, right top, from(#34e6cd), to(#0cbbce));
+  background: linear-gradient(90deg, #34e6cd, #0cbbce);
+  border: solid 2px #fff;
+  border-radius: 14px;
+}
+
+/* line 130, style.scss */
+.mining-hotel-presentation h2 {
+  font-family: "Gotham Pro Black";
+  font-size: 18px;
+  text-align: center;
+  text-transform: uppercase;
+}
+/* line 136, style.scss */
+.mining-hotel-presentation h4 {
+  font-family: "Gotham Pro Light";
+  font-size: 18px;
+  text-align: center;
+}
+/* line 140, style.scss */
+.mining-hotel-presentation h4 span {
+  font-family: "Gotham Pro Black";
+}
+/* line 144, style.scss */
+.mining-hotel-presentation img {
+  width: 100%;
+  height: auto;
+}
+/* line 148, style.scss */
+.mining-hotel-presentation div.separator {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+/* line 154, style.scss */
+.mining-hotel-presentation div.separator .figure {
+  height: 33px;
+  width: 38px;
+  background: -webkit-gradient(linear, left top, right top, from(#22c5bd), to(#3dabf1));
+  background: linear-gradient(90deg, #22c5bd, #3dabf1);
+  -webkit-clip-path: polygon(50% 30%, 100% 0, 100% 70%, 50% 100%, 0 70%, 0 0);
+          clip-path: polygon(50% 30%, 100% 0, 100% 70%, 50% 100%, 0 70%, 0 0);
+}
+/* line 161, style.scss */
+.mining-hotel-presentation hr {
+  color: #e0e0e0;
+  margin-top: -15px;
+}
+
+/* line 168, style.scss */
+.form-callback form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  text-transform: uppercase;
+  color: #24c4bf;
+}
+/* line 176, style.scss */
+.form-callback form h4 {
+  font-family: "Gotham Pro Black";
+  font-size: 14px;
+}
+/* line 180, style.scss */
+.form-callback form input {
+  font-family: "Gotham Pro Light";
+  font-size: 14px;
+  text-align: center;
+  padding-left: 10px;
+  height: 29px;
+  width: 100%;
+  border: solid 2px #00c4c1;
+}
+/* line 190, style.scss */
+.form-callback form input[type="text"], .form-callback form input[type="tel"] {
+  border-radius: 14px;
+  text-align: left;
+}
+/* line 194, style.scss */
+.form-callback form input[type="submit"] {
+  background: #000;
+  border-radius: 14px;
+  text-align: center;
+  padding-left: 0;
+  color: #fff;
+}
+
+/* line 204, style.scss */
+.wattson-system {
+  color: #fff;
+  background: -webkit-gradient(linear, left top, right top, from(#24c4bf), to(#33b5de));
+  background: linear-gradient(90deg, #24c4bf, #33b5de);
+  padding-bottom: 60px;
+}
+/* line 208, style.scss */
+.wattson-system h2 {
+  font-family: "Gotham Pro Black";
+  font-size: 34px;
+  text-transform: uppercase;
+}
+/* line 213, style.scss */
+.wattson-system h4 {
+  margin-top: 40px;
+  font-family: "Gotham Pro Black";
+  font-size: 18px;
+  text-transform: uppercase;
+}
+/* line 219, style.scss */
+.wattson-system p {
+  font-family: "Gotham Pro Light";
+  font-size: 14px;
+}
+/* line 223, style.scss */
+.wattson-system img {
+  width: 100%;
+  height: auto;
+}
+
+/* line 230, style.scss */
+.product-structure h2 {
+  font-family: "Gotham Pro Black";
+  font-size: 34px;
+  color: #25c3c1;
+  text-transform: uppercase;
+  text-align: center;
+}
+/* line 237, style.scss */
+.product-structure img {
+  width: 100%;
+  height: auto;
+}
+
+/* line 244, style.scss */
+#form-main-engineer {
+  border-top: 3px solid;
+  border-bottom: 3px solid;
+  -o-border-image: linear-gradient(90deg, #23c5bd, #3fa9f5);
+     border-image: -webkit-gradient(linear, left top, right top, from(#23c5bd), to(#3fa9f5));
+     border-image: linear-gradient(90deg, #23c5bd, #3fa9f5);
+  width: 100%;
+  background: #000;
+  color: #fff;
+  font-family: "Gotham Pro Medium";
+  font-size: 15px;
+}
+/* line 253, style.scss */
+#form-main-engineer form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  text-transform: uppercase;
+}
+/* line 260, style.scss */
+#form-main-engineer form h4 {
+  text-align: right;
+}
+/* line 263, style.scss */
+#form-main-engineer form input {
+  font-family: "Gotham Pro Light";
+  font-size: 14px;
+  text-align: center;
+  padding-left: 10px;
+  height: 29px;
+  width: 100%;
+  border: solid 2px #00c4c1;
+}
+/* line 273, style.scss */
+#form-main-engineer form input[type="text"], #form-main-engineer form input[type="tel"] {
+  border-radius: 14px;
+  text-align: left;
+}
+/* line 277, style.scss */
+#form-main-engineer form input[type="tel"] {
+  padding-left: 0;
+}
+/* line 280, style.scss */
+#form-main-engineer form input[type="submit"] {
+  background: #000;
+  border-radius: 14px;
+  text-align: center;
+  padding-left: 0;
+  color: #fff;
+}
+
+/* line 290, style.scss */
+.intellegence {
+  margin-top: 50px;
+}
+/* line 292, style.scss */
+.intellegence img {
+  margin-bottom: 40px;
+  width: auto;
+  height: 100%;
+}
+/* line 297, style.scss */
+.intellegence h2 {
+  font-family: "Gotham Pro Black";
+  font-size: 34px;
+  color: #25c3c1;
+  text-transform: uppercase;
+}
+/* line 303, style.scss */
+.intellegence ul {
+  list-style-type: none;
+}
+/* line 306, style.scss */
+.intellegence ul li div.list-item {
+  border: solid 3px #72b1c9;
+  border-radius: 15px;
+  text-align: center;
+  display: inline-block;
+  width: 29px;
+  height: 29px;
+  margin-right: 15px;
+  margin-bottom: 6px;
+}
+/* line 316, style.scss */
+.intellegence ul li span {
+  text-transform: uppercase;
+}
+
+/* line 323, style.scss */
+.mining-hotel {
+  background: -webkit-gradient(linear, left top, right top, from(#23c5db), to(#3eaaf4));
+  background: linear-gradient(90deg, #23c5db, #3eaaf4);
+  color: #fff;
+  text-transform: uppercase;
+}
+/* line 327, style.scss */
+.mining-hotel img {
+  margin: 15px 0;
+  width: 100%;
+  height: auto;
+}
+/* line 332, style.scss */
+.mining-hotel h2 {
+  font-family: "Gotham Pro Black";
+  font-size: 34px;
+  margin-top: 80px;
+}
+/* line 337, style.scss */
+.mining-hotel ul {
+  list-style-type: none;
+}
+/* line 339, style.scss */
+.mining-hotel ul li {
+  font-family: "Gotham Pro Regular";
+  font-size: 14px;
+  margin-top: 45px;
+}
+
+/* line 348, style.scss */
+.advantages img {
+  width: 100%;
+  height: auto;
+}
+
+/* line 354, style.scss */
+.advantages-description {
+  background-image: -webkit-gradient(linear, left top, right top, from(#23c5bd), to(#3eaaf4));
+  background-image: linear-gradient(90deg, #23c5bd, #3eaaf4);
+}
+/* line 356, style.scss */
+.advantages-description p {
+  font-family: "Gotham Pro Regular";
+  font-size: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 35px 0 45px 0;
+}
+/* line 365, style.scss */
+.advantages-description .middle p {
+  border-left: solid 1px #fff;
+  border-right: solid 1px #fff;
+}
+
+/* line 373, style.scss */
+.callback-salary form.container-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  text-transform: uppercase;
+}
+/* line 380, style.scss */
+.callback-salary form.container-flex h4 {
+  text-align: right;
+  font-family: "Gotham Pro Medium";
+  font-size: 15px;
+}
+/* line 385, style.scss */
+.callback-salary form.container-flex input {
+  font-family: "Gotham Pro Light";
+  font-size: 14px;
+  text-align: center;
+  padding-left: 10px;
+  height: 29px;
+  border: solid 2px #00c4c1;
+}
+/* line 395, style.scss */
+.callback-salary form.container-flex input[type="text"], .callback-salary form.container-flex input[type="tel"] {
+  border-radius: 14px;
+  text-align: left;
+}
+/* line 399, style.scss */
+.callback-salary form.container-flex input[type="tel"] {
+  padding-left: 0;
+}
+/* line 402, style.scss */
+.callback-salary form.container-flex input[type="submit"] {
+  background: #000;
+  border-radius: 14px;
+  text-align: center;
+  padding: 0 10px;
+  color: #fff;
+}
+/* line 410, style.scss */
+.callback-salary hr {
+  color: #e0e0e0;
+  margin-top: 0;
+}
+
+/* line 417, style.scss */
+.table h2 {
+  text-align: center;
+  font-family: "Gotham Pro Black";
+  font-size: 34px;
+  text-transform: uppercase;
+}
+/* line 423, style.scss */
+.table table {
+  width: 90%;
+  margin: auto;
+}
+/* line 426, style.scss */
+.table table td {
+  padding-left: 15px;
+}
+/* line 429, style.scss */
+.table table thead {
+  background-image: -webkit-gradient(linear, left top, right top, from(#23c5bd), to(#3fa9f5));
+  background-image: linear-gradient(90deg, #23c5bd, #3fa9f5);
+  font-family: "Gotham Pro Black";
+  font-size: 32px;
+  color: #fff;
+  text-transform: uppercase;
+}
+/* line 436, style.scss */
+.table table tbody {
+  font-family: "Gotham Pro Regular";
+  font-size: 14px;
+}
+/* line 439, style.scss */
+.table table tbody tr {
+  border: dotted 1px #d9d8d8;
+  border-right: none;
+  border-left: none;
+  line-height: 30px;
+}
+/* line 444, style.scss */
+.table table tbody tr:first-child {
+  border-top: none;
+}
+/* line 447, style.scss */
+.table table tbody tr:last-child {
+  border-bottom: none;
+}
+/* line 450, style.scss */
+.table table tbody tr td {
+  border-right: solid 2px #f1f1f1;
+}
+/* line 452, style.scss */
+.table table tbody tr td:last-child {
+  border: none;
+}
+/* line 455, style.scss */
+.table table tbody tr td:nth-of-type(1) {
+  width: 50%;
+}
+/* line 458, style.scss */
+.table table tbody tr td:nth-of-type(2) {
+  width: 20%;
+}
+/* line 461, style.scss */
+.table table tbody tr td:nth-of-type(3) {
+  width: 30%;
+}
+
+/* line 470, style.scss */
+.tariff {
+  background-image: -webkit-gradient(linear, left top, right top, from(#23c5bd), to(#3fa9f5));
+  background-image: linear-gradient(90deg, #23c5bd, #3fa9f5);
+  text-transform: uppercase;
+  color: #fff;
+}
+/* line 474, style.scss */
+.tariff h2 {
+  color: #fff;
+  font-family: "Gotham Pro Black";
+  font-size: 34px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+/* line 481, style.scss */
+.tariff .pricecard {
+  padding: 11px;
+  background: #fff;
+  text-align: center;
+}
+/* line 485, style.scss */
+.tariff .pricecard:hover {
+  -webkit-box-shadow: 0px 0px 12px 10px white;
+  box-shadow: 0px 0px 12px 10px white;
+}
+/* line 489, style.scss */
+.tariff .pricecard:hover h5.card-number {
+  -webkit-box-shadow: 0px 0px 12px 10px white;
+  box-shadow: 0px 0px 12px 10px white;
+}
+/* line 495, style.scss */
+.tariff .pricecard .border-for-pricecard {
+  border: dotted 3px #cdcdcd;
+}
+/* line 497, style.scss */
+.tariff .pricecard .border-for-pricecard h5.card-number {
+  color: #000;
+  font-family: "Gotham Pro Black";
+  font-size: 34px;
+  height: 50px;
+  width: 50px;
+  margin-top: -35px;
+  position: absolute;
+  border-radius: 50px;
+  border: solid 3px #72b9b9;
+  display: inline-block;
+  background: #fff;
+  z-index: 9999;
+  -webkit-box-shadow: 0px 0px 0px 3px white;
+  box-shadow: 0px 0px 0px 3px white;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+/* line 515, style.scss */
+.tariff .pricecard .border-for-pricecard h3.price {
+  color: #000;
+  font-family: "Gotham Pro Black";
+  font-size: 54px;
+  margin-top: 40px;
+}
+/* line 521, style.scss */
+.tariff .pricecard .border-for-pricecard h4 {
+  font-family: "Gotham Pro Regular";
+  font-size: 28px;
+  color: #cdcdcd;
+  padding-bottom: 15px;
+  border-bottom: #26c2c3 solid 2px;
+  display: inline-block;
+}
+/* line 529, style.scss */
+.tariff .pricecard .border-for-pricecard p {
+  font-family: "Gotham Pro Regular";
+  font-size: 28px;
+  color: #cdcdcd;
+  margin: 30px 0;
+  line-height: normal;
+}
+/* line 535, style.scss */
+.tariff .pricecard .border-for-pricecard p span {
+  font-size: 58px;
+  color: #26c2c3;
+}
+/* line 540, style.scss */
+.tariff .pricecard .border-for-pricecard h6 {
+  font-family: "Gotham Pro Regular";
+  font-size: 13px;
+  color: #cdcdcd;
+  margin-top: 20px;
+}
+/* line 548, style.scss */
+.tariff form.sale {
+  margin-top: 60px;
+  text-align: center;
+  font-family: "Gotham Pro Medium";
+  font-size: 22px;
+  text-align: center;
+  background: -webkit-gradient(linear, left top, right top, from(#23c5bd), to(#3fa9f5));
+  background: linear-gradient(90deg, #23c5bd, #3fa9f5);
+  padding-bottom: 27px;
+}
+/* line 551, style.scss */
+.tariff form.sale p {
+  font-family: "Gotham Pro Regular";
+  font-size: 22px;
+}
+/* line 554, style.scss */
+.tariff form.sale p span {
+  font-size: 38px;
+}
+/* line 556, style.scss */
+.tariff form.sale p span span {
+  font-size: 47px;
+}
+/* line 561, style.scss */
+.tariff form.sale .triangle {
+  width: 20px;
+  text-align: center;
+  border: 20px solid transparent;
+  border-top: 20px solid #fff;
+  margin: 15px auto;
+}
+/* line 573, style.scss */
+.tariff form.sale input {
+  font-family: "Gotham Pro Light";
+  font-size: 16px;
+  text-align: center;
+  padding-left: 10px;
+  height: 29px;
+  width: 30%;
+}
+/* line 581, style.scss */
+.tariff form.sale input[type="text"], .tariff form.sale input[type="tel"] {
+  border: solid 2px #00c4c1;
+  border-radius: 14px;
+  text-align: left;
+}
+/* line 586, style.scss */
+.tariff form.sale input[type="submit"] {
+  background: -webkit-gradient(linear, left top, right top, from(#34e6cd), to(#0cbbce));
+  background: linear-gradient(90deg, #34e6cd, #0cbbce);
+  border: solid 2px #fff;
+  border-radius: 14px;
+}
+/* line 593, style.scss */
+.tariff .backgound-end {
+  background: url("../images/bg-end.png") top;
+  min-height: 110px;
+}
+
+/*
+стили для увеличенных изображений из слайдера
+ */
+/* увеличенная картинка */
+/* line 606, style.scss */
+#magnify {
+  display: none;
+  /* position: absolute; upd: 24.10.2016 */
+  position: fixed;
+  max-width: 600px;
+  height: auto;
+  z-index: 9;
+}
+
+/* line 616, style.scss */
+#magnify img {
+  width: 100%;
+}
+
+/* затемняющий фон */
+/* line 621, style.scss */
+#overlay {
+  display: none;
+  background: #000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0.5;
+  z-index: 9990;
+}
+
+/* кнопка закрытия */
+/* line 635, style.scss */
+#close-popup {
+  width: 30px;
+  height: 30px;
+  background: #FFFFFF;
+  border: 1px solid #AFAFAF;
+  border-radius: 15px;
+  cursor: pointer;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+/* line 648, style.scss */
+#close-popup i {
+  width: 30px;
+  height: 30px;
+  background: url(https://codernote.ru/files/cross.png) no-repeat center center;
+  background-size: 16px 16px;
+  display: block;
+}
+
+@-webkit-keyframes rota {
+  25% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes rota {
+  25% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+/* line 660, style.scss */
+#close-popup:hover {
+  -webkit-animation: rota 4s infinite normal;
+          animation: rota 4s infinite normal;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
+/*
+адаптивка
+ */
+@media (max-device-width: 769px) {
+  /* line 673, style.scss */
+  .form-callback form, .form-main-engineer form, .callback-salary form {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  /* line 676, style.scss */
+  .form-callback form h4, .form-main-engineer form h4, .callback-salary form h4 {
+    text-align: center;
+  }
+  /* line 679, style.scss */
+  .form-callback form input, .form-main-engineer form input, .callback-salary form input {
+    width: 100%;
+    margin: 5px auto;
+  }
+
+  /* line 686, style.scss */
+  form.sale input {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
